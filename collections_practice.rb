@@ -3,6 +3,6 @@ def sort_array_asc(integers)
 end 
 
 def sort_array_desc(integers)
-  integers.sort_by reverse
+  integers.sort {|a, b| 
 end 
 
