@@ -3,6 +3,13 @@ def sort_array_asc(integers)
 end 
 
 def sort_array_desc(integers)
-  integers.sort {|a, b| 
+  integers.sort do |a, b| 
+    if a == b 
+      0 
+    elsif a < b 
+      1 
+      elsif a > b
+      -1
+    end 
 end 
 
