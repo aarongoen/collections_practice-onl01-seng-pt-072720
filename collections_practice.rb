@@ -16,11 +16,11 @@ end
 
 def sort_array_char_count(strings)
   strings.sort do |a, b|
-     if string.length[a] == string.length[b] 
+     if a.length == b.length
       0 
-    elsif string.length[a] < string.length[b] 
+    elsif a.length < b.length
       -1 
-    elsif string.length[a] > string.length[b] 
+    elsif a.length > b.length
       1
     end 
   end 
