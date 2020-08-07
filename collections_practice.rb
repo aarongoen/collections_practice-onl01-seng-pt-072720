@@ -29,3 +29,11 @@ end
 def reverse_array(array)
   array.sort {|a, b| b <=> a}
 end 
+
+def kesha_maker(strings)
+  new_array = []
+  strings.each {|string| 
+    "string.to_a ## then new_array[3] substitute "$""
+  end
+end 
+end 
