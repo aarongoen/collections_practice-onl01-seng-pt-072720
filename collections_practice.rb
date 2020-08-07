@@ -14,3 +14,14 @@ def sort_array_desc(integers)
   end 
 end 
 
+def sort_array_char_count(strings)
+  strings.sort do |string|
+     if string.length[a] == string.length[b] 
+      0 
+    elsif string.length[a] < string.length[b] 
+      -1 
+    elsif string.length[a] > string.length[b] 
+      1
+    end 
+  end 
+end 
