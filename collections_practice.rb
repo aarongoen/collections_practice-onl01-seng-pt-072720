@@ -1,3 +1,3 @@
 def sort_array_asc(integers)
-  return integers.sort
+  integers.sort
 end 
