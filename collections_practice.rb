@@ -15,7 +15,7 @@ def sort_array_desc(integers)
 end 
 
 def sort_array_char_count(strings)
-  strings.sort do |string|
+  strings.sort do |a, b|
      if string.length[a] == string.length[b] 
       0 
     elsif string.length[a] < string.length[b] 
