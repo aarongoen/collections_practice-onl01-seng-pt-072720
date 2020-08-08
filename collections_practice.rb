@@ -43,5 +43,12 @@ def find_a(array)
 end 
  
 def sum_array(integers)
-  
+  integers.reduce(:+) 
+end 
+
+def add_s(array)
+  counter = 0 
+
+
+  counter += 1
 end 
