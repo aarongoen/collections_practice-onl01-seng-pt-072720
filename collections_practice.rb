@@ -42,3 +42,6 @@ def find_a(array)
   array.select { |string| string.start_with?("a") }
 end 
  
+def sum_array(integers)
+  
+end 
