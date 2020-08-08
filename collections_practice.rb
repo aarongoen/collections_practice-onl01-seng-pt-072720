@@ -53,9 +53,9 @@ end
 #   array.select { |string| string.start_with?("a") }
 # end 
  
-def sum_array(array)
+def sum_array(integers)
 sum = 0
-array.each { |a| sum+=a }
+integers.each { |integer| sum+=integer }
 sum 
 end 
 
