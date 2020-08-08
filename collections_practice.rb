@@ -30,13 +30,13 @@ def reverse_array(array)
   array.sort {|a, b| b <=> a}
 end 
 
-# def kesha_maker(strings)
-#   new_array = []
-#   strings.each do |string| 
-#       new_array << string.to_a 
-#   end
-#   return new_array
-# end 
+def kesha_maker(strings)
+  new_array = []
+  strings.each do |string| 
+      new_array << string.to_a 
+  end
+  return new_array
+end 
 
 def find_a(array)
   array.select { |string| string.start_with?("a") }
