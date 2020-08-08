@@ -20,14 +20,14 @@ def sort_array_char_count(strings)
   end 
 end 
 
-def swap_elements(array)
-    array.sort.reverse do |array[1], array[2]|
-  end 
-end 
-
-# def reverse_array(array)
-#   array.sort {|a, b| b <=> a}
+# def swap_elements(array)
+#     array.sort.reverse do |a, b|
+#   end 
 # end 
+
+def reverse_array(array)
+  array.sort {|a, b| b <=> a}
+end 
 
 # def kesha_maker(strings)
 #   new_array = []
