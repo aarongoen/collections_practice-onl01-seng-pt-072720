@@ -29,16 +29,8 @@ end
 #   array.sort {|b, a| b <=> a}
 # end 
 
-def reverse_array(array)
-  array.sort do |a, b| 
-    if a == b 
-      0 
-    elsif a < b 
-      1 
-    elsif a > b
-    -1
-    end 
-  end 
+def reverse_array(integers)
+  integers.reverse.each {|element| element}
 end 
 
 def kesha_maker(strings)
