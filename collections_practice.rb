@@ -25,8 +25,20 @@ end
 #   end 
 # end 
 
+# def reverse_array(array)
+#   array.sort {|b, a| b <=> a}
+# end 
+
 def reverse_array(array)
-  array.sort {|b, a| b <=> a}
+  array.sort do |a, b| 
+    if a == b 
+      0 
+    elsif a < b 
+      1 
+    elsif a > b
+     -1
+    end 
+  end 
 end 
 
 # def kesha_maker(strings)
