@@ -40,6 +40,6 @@ end
 
 def find_a(array)
   array.each do |string|
-    puts start_with?("a") 
+    puts array.start_with?("a") 
 end 
  
