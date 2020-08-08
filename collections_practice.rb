@@ -57,7 +57,7 @@ def sum_array(integers)
  sum = 0
  
  integers.each do |integer| 
- counter+=sum
+ sum+=integer
  end
 end 
 
