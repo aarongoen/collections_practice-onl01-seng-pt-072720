@@ -21,13 +21,10 @@ def sort_array_char_count(strings)
 end 
 
 def swap_elements(array)
-    array.reverse do |a, b|
+    array[1],array[2]=array[2],array[1]
+    array
   end 
 end 
-
-# def reverse_array(array)
-#   array.sort {|b, a| b <=> a}
-# end 
 
 def reverse_array(integers)
   integers.reverse.each {|element| element}
