@@ -52,4 +52,5 @@ def add_s(array)
       puts array[1]
     else 
       puts string+"s"
+    end 
   end 
