@@ -55,7 +55,7 @@ end
  
 def sum_array(integers)
   integers.each do |integer|
-    + 
+    integers.each { |integer| sum+=a }+ 
 end 
 
 # def add_s(array)
