@@ -41,20 +41,21 @@ def reverse_array(array)
   end 
 end 
 
-# def kesha_maker(strings)
-#   new_array = []
-#   strings.each do |string| 
-#       new_array << string.to_a 
-#   end
-#   return new_array
-# end 
+def kesha_maker(strings)
+  new_array = []
+  strings.each do |string| 
+      new_array << string.to_a 
+  end
+  return new_array
+end 
 
 # def find_a(array)
 #   array.select { |string| string.start_with?("a") }
 # end 
  
 def sum_array(integers)
-  integers.reduce(:+) 
+  integers.each do |integer|
+    + 
 end 
 
 # def add_s(array)
