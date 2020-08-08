@@ -37,4 +37,8 @@ end
 #   end
 #   return new_array
 # end 
+
+def find_a(array)
+  start_with?("a") 
+end 
  
