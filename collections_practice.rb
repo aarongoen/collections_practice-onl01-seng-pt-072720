@@ -33,7 +33,7 @@ end
 def kesha_maker(strings)
   new_array = []
   strings.each {|string| 
-    "string.to_a ## then new_array[3] substitute "$""
-  end
+    string.to_a 
+    new_array <<   end
 end 
 end 
