@@ -53,9 +53,9 @@
 #   array.select { |string| string.start_with?("a") }
 # end 
  
-# def sum_array(integers)
-#   integers.reduce(:+) 
-# end 
+def sum_array(integers)
+  integers.reduce(:+) 
+end 
 
 # def add_s(array)
 #   array.each do |string|
