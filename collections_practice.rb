@@ -59,17 +59,8 @@ integers.each { |integer| sum+=integer }
 sum 
 end 
 
-# def add_s(array)
-#   array.each do |string|
-#     if string == array[1]
-#       puts array[1]
-#     else 
-#       puts string+"s"
-#     end 
-#   end 
-
 def add_s(array)
   array.each_with_index.collect do |element, i| 
-    i == 1? element = element:element + "s"
+    i == 1 ? element = element:element + "s"
   end
 end 
