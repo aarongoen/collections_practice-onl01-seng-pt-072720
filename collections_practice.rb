@@ -54,10 +54,10 @@ end
 # end 
  
 def sum_array(integers)
- counter = 0
+ sum = 0
  
  integers.each do |integer| 
- counter+=integer
+ counter+=sum
  end
 end 
 
