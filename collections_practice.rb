@@ -34,6 +34,7 @@ def kesha_maker(strings)
   new_array = []
   strings.each {|string| 
       new_array << string.to_a 
+      
   end
   return new_array
 end 
