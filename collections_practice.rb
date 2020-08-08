@@ -34,11 +34,9 @@ def reverse_array(integers)
 end 
 
 def kesha_maker(strings)
-  new_array = []
   strings.each do |string| 
-      new_array << string.to_a 
+      string[2] = "$"
   end
-  return new_array
 end 
 
 def find_a(array)
