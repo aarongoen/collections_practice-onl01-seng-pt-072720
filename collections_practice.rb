@@ -47,8 +47,9 @@ def sum_array(integers)
 end 
 
 def add_s(array)
-  counter = 0 
-
-
-  counter += 1
-end 
+  array.each do |string|
+    if string == array[1]
+      puts array[1]
+    else 
+      puts string+"s"
+  end 
