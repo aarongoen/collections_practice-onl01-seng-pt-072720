@@ -33,7 +33,7 @@ end
 def kesha_maker(strings)
   new_array = []
   strings.each {|string| 
-    string.to_a 
-    new_array <<   end
+      new_array << string.to_a 
+  end
 end 
 end 
