@@ -14,11 +14,11 @@ def sort_array_desc(integers)
   end 
 end 
 
-# def sort_array_char_count(strings)
-#   strings.sort do |a, b|
-#     a.length <=> b.length
-#   end 
-# end 
+def sort_array_char_count(strings)
+  strings.sort do |a, b|
+    a.length <=> b.length
+  end 
+end 
 
 # def swap_elements(array)
 #     for array[1..2]
